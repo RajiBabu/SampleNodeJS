@@ -2,7 +2,7 @@ var express=require('express')
 var app = express()
 
 app.get('/', function(req, res){
-    res.send('World is yours!')
+    res.send('Born to conquer!')
 })
 
 app.listen(3000, function(){
